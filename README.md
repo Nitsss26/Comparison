@@ -4,7 +4,7 @@
 
 | BU 2019-2020 | BU 2020-2021 | BU 2021-2022 |
 | :---: | :---: | :---: |
-| #### B.A.SECOND YEAR (PRIVATE).csv | #### B.A.SECOND YEAR (PRIVATE).csv | #### B.A.SECOND YEAR (PRIVATE).csv |
+| ### B.A.SECOND YEAR (PRIVATE).csv | ### B.A.SECOND YEAR (PRIVATE).csv | ### B.A.SECOND YEAR (PRIVATE).csv |
 | **6,835** | **5,117** | **8,274** |
 | #### B.A.SECOND YEAR (REGULAR).csv | #### B.A.SECOND YEAR (REGULAR).csv | #### B.A.SECOND YEAR (REGULAR).csv |
 | **24,095** | **26,223** | **76,716** |
