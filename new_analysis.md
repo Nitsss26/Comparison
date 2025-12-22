@@ -1,6 +1,6 @@
 # Final Analysis Report: Missing Student Data Stats
 
-## Executive Summary Table
+## Summary Table
 
 | Location | Category | Year | Course | Total Students | Missing Mobile | Missing Email | Missing Both |
 |:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|
