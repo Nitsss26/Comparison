@@ -2,6 +2,120 @@
 
 # Enrollment Data Analysis
 
+## Executive Summary Table
+
+| Category | Year | Course | Location | Total Students | Missing Mobile | Missing Email | Missing Both | Missing DOB |
+|---|---|---|---|---|---|---|---|---|
+| Enrollment | 2022 | PG | BHOPAL | 26033 | 5502 | 20236 | 5502 | 0 |
+| Enrollment | 2022 | PG | HARDA | 3038 | 2002 | 2811 | 2002 | 0 |
+| Enrollment | 2022 | PG | HOSHANGABAD | 5262 | 3209 | 4770 | 3209 | 0 |
+| Enrollment | 2022 | PG | RAISEN | 4029 | 1622 | 2976 | 1622 | 0 |
+| Enrollment | 2022 | PG | RAJGARH | 3285 | 2051 | 2886 | 2051 | 0 |
+| Enrollment | 2022 | PG | SEHORE | 4087 | 2197 | 3454 | 2197 | 0 |
+| Enrollment | 2022 | PG | VIDISHA | 5640 | 3384 | 4873 | 3384 | 0 |
+| Enrollment | 2022 | UG | BHOPAL | 25144 | 14305 | 15591 | 14305 | 0 |
+| Enrollment | 2022 | UG | HARDA | 4455 | 2016 | 2172 | 2016 | 0 |
+| Enrollment | 2022 | UG | HOSHANGABAD | 10683 | 3174 | 4148 | 3174 | 0 |
+| Enrollment | 2022 | UG | RAISEN | 8190 | 4043 | 4409 | 4043 | 0 |
+| Enrollment | 2022 | UG | RAJGARH | 10141 | 4197 | 5217 | 4197 | 0 |
+| Enrollment | 2022 | UG | SEHORE | 12892 | 5400 | 5953 | 5400 | 0 |
+| Enrollment | 2022 | UG | VIDISHA | 11025 | 3745 | 4218 | 3745 | 0 |
+| Enrollment | 2023 | PG | BETUL | 5082 | 1141 | 1233 | 1141 | 0 |
+| Enrollment | 2023 | PG | BHOPAL | 27119 | 4286 | 9382 | 4286 | 0 |
+| Enrollment | 2023 | PG | HARDA | 2928 | 857 | 1159 | 857 | 0 |
+| Enrollment | 2023 | PG | HOSHANGABAD | 5297 | 1140 | 1502 | 1140 | 0 |
+| Enrollment | 2023 | PG | RAISEN | 4153 | 572 | 1224 | 572 | 0 |
+| Enrollment | 2023 | PG | RAJGARH | 2818 | 698 | 878 | 698 | 0 |
+| Enrollment | 2023 | PG | SEHORE | 4560 | 1034 | 1526 | 1034 | 0 |
+| Enrollment | 2023 | PG | VIDISHA | 5596 | 1439 | 1802 | 1439 | 0 |
+| Enrollment | 2023 | UG | BETUL | 10346 | 3770 | 3924 | 3770 | 0 |
+| Enrollment | 2023 | UG | BHOPAL | 26605 | 14448 | 15024 | 14448 | 0 |
+| Enrollment | 2023 | UG | HARDA | 4745 | 1779 | 1888 | 1779 | 0 |
+| Enrollment | 2023 | UG | HOSHANGABAD | 10628 | 2591 | 3268 | 2591 | 0 |
+| Enrollment | 2023 | UG | RAISEN | 8289 | 2862 | 3119 | 2862 | 0 |
+| Enrollment | 2023 | UG | RAJGARH | 10704 | 3749 | 4691 | 3749 | 0 |
+| Enrollment | 2023 | UG | SEHORE | 14500 | 4919 | 5253 | 4919 | 0 |
+| Enrollment | 2023 | UG | VIDISHA | 11849 | 2736 | 3072 | 2736 | 0 |
+| Enrollment | 2024 | PG | BETUL | 4318 | 0 | 853 | 0 | 0 |
+| Enrollment | 2024 | PG | BHOPAL | 23026 | 0 | 15123 | 0 | 0 |
+| Enrollment | 2024 | PG | HARDA | 2152 | 0 | 765 | 0 | 0 |
+| Enrollment | 2024 | PG | HOSHANGABAD | 3710 | 0 | 1008 | 0 | 0 |
+| Enrollment | 2024 | PG | RAISEN | 3689 | 0 | 2044 | 0 | 0 |
+| Enrollment | 2024 | PG | RAJGARH | 2051 | 0 | 578 | 0 | 0 |
+| Enrollment | 2024 | PG | SEHORE | 3465 | 0 | 1335 | 0 | 0 |
+| Enrollment | 2024 | PG | VIDISHA | 4396 | 0 | 1549 | 0 | 0 |
+| Enrollment | 2024 | UG | BETUL | 10037 | 0 | 436 | 0 | 0 |
+| Enrollment | 2024 | UG | BHOPAL | 23788 | 10 | 2704 | 10 | 0 |
+| Enrollment | 2024 | UG | HARDA | 3846 | 0 | 148 | 0 | 0 |
+| Enrollment | 2024 | UG | HOSHANGABAD | 10264 | 0 | 762 | 0 | 0 |
+| Enrollment | 2024 | UG | RAISEN | 7802 | 0 | 441 | 0 | 0 |
+| Enrollment | 2024 | UG | RAJGARH | 9134 | 0 | 1302 | 0 | 0 |
+| Enrollment | 2024 | UG | SEHORE | 12168 | 0 | 579 | 0 | 0 |
+| Enrollment | 2024 | UG | VIDISHA | 9460 | 0 | 217 | 0 | 0 |
+| Enrollment | 2025 | PG | BETUL | 6 | 0 | 0 | 0 | 0 |
+| Enrollment | 2025 | PG | BHOPAL | 160 | 0 | 0 | 0 | 0 |
+| Enrollment | 2025 | PG | HARDA | 16 | 0 | 0 | 0 | 0 |
+| Enrollment | 2025 | PG | HOSHANGABAD | 111 | 0 | 0 | 0 | 0 |
+| Enrollment | 2025 | PG | RAISEN | 5 | 0 | 0 | 0 | 0 |
+| Enrollment | 2025 | PG | RAJGARH | 31 | 0 | 0 | 0 | 0 |
+| Enrollment | 2025 | PG | SEHORE | 7 | 0 | 0 | 0 | 0 |
+| Enrollment | 2025 | PG | VIDISHA | 114 | 0 | 0 | 0 | 0 |
+| Enrollment | 2025 | UG | BETUL | 26 | 0 | 0 | 0 | 0 |
+| Enrollment | 2025 | UG | BHOPAL | 9 | 0 | 0 | 0 | 0 |
+| Enrollment | 2025 | UG | HARDA | 4 | 0 | 0 | 0 | 0 |
+| Enrollment | 2025 | UG | RAJGARH | 1 | 0 | 0 | 0 | 0 |
+| Enrollment | 2025 | UG | SEHORE | 3 | 0 | 0 | 0 | 0 |
+| Enrollment | 2025 | UG | VIDISHA | 3 | 0 | 0 | 0 | 0 |
+| Admission | 2022 | PG | BHOPAL | 26016 | 5497 | 20211 | 5497 | 0 |
+| Admission | 2022 | PG | HARDA | 3033 | 1998 | 2806 | 1998 | 0 |
+| Admission | 2022 | PG | HOSHANGABAD | 5254 | 3200 | 4760 | 3200 | 0 |
+| Admission | 2022 | PG | RAISEN | 4027 | 1621 | 2973 | 1621 | 0 |
+| Admission | 2022 | PG | RAJGARH | 3286 | 2056 | 2886 | 2056 | 0 |
+| Admission | 2022 | PG | SEHORE | 4082 | 2192 | 3449 | 2192 | 0 |
+| Admission | 2022 | PG | VIDISHA | 5638 | 3379 | 4871 | 3379 | 0 |
+| Admission | 2022 | UG | BHOPAL | 25151 | 14310 | 15599 | 14310 | 0 |
+| Admission | 2022 | UG | HARDA | 4455 | 2016 | 2172 | 2016 | 0 |
+| Admission | 2022 | UG | HOSHANGABAD | 10683 | 3173 | 4148 | 3173 | 0 |
+| Admission | 2022 | UG | RAISEN | 8190 | 4043 | 4409 | 4043 | 0 |
+| Admission | 2022 | UG | RAJGARH | 10141 | 4197 | 5217 | 4197 | 0 |
+| Admission | 2022 | UG | SEHORE | 12890 | 5398 | 5951 | 5398 | 0 |
+| Admission | 2022 | UG | VIDISHA | 11024 | 3744 | 4217 | 3744 | 0 |
+| Admission | 2023 | PG | BETUL | 5081 | 1139 | 1231 | 1139 | 0 |
+| Admission | 2023 | PG | BHOPAL | 27095 | 4278 | 9359 | 4278 | 0 |
+| Admission | 2023 | PG | HARDA | 2931 | 860 | 1162 | 860 | 0 |
+| Admission | 2023 | PG | HOSHANGABAD | 5291 | 1135 | 1497 | 1135 | 0 |
+| Admission | 2023 | PG | RAISEN | 4152 | 573 | 1223 | 573 | 0 |
+| Admission | 2023 | PG | RAJGARH | 2820 | 699 | 880 | 699 | 0 |
+| Admission | 2023 | PG | SEHORE | 4558 | 1032 | 1521 | 1032 | 0 |
+| Admission | 2023 | PG | VIDISHA | 5597 | 1440 | 1803 | 1440 | 0 |
+| Admission | 2023 | UG | BETUL | 10347 | 3770 | 3925 | 3770 | 0 |
+| Admission | 2023 | UG | BHOPAL | 26610 | 14449 | 15028 | 14449 | 0 |
+| Admission | 2023 | UG | HARDA | 4745 | 1779 | 1888 | 1779 | 0 |
+| Admission | 2023 | UG | HOSHANGABAD | 10628 | 2591 | 3268 | 2591 | 0 |
+| Admission | 2023 | UG | RAISEN | 8288 | 2861 | 3118 | 2861 | 0 |
+| Admission | 2023 | UG | RAJGARH | 10704 | 3749 | 4691 | 3749 | 0 |
+| Admission | 2023 | UG | SEHORE | 14501 | 4919 | 5253 | 4919 | 0 |
+| Admission | 2023 | UG | VIDISHA | 11848 | 2736 | 3071 | 2736 | 0 |
+| Admission | 2024 | PG | BETUL | 4318 | 0 | 853 | 0 | 0 |
+| Admission | 2024 | PG | BHOPAL | 23040 | 0 | 15129 | 0 | 0 |
+| Admission | 2024 | PG | HARDA | 2154 | 0 | 764 | 0 | 0 |
+| Admission | 2024 | PG | HOSHANGABAD | 3709 | 0 | 1007 | 0 | 0 |
+| Admission | 2024 | PG | RAISEN | 3695 | 0 | 2045 | 0 | 0 |
+| Admission | 2024 | PG | RAJGARH | 2054 | 0 | 579 | 0 | 0 |
+| Admission | 2024 | PG | SEHORE | 3464 | 0 | 1336 | 0 | 0 |
+| Admission | 2024 | PG | VIDISHA | 4400 | 0 | 1550 | 0 | 0 |
+| Admission | 2024 | UG | BETUL | 10037 | 0 | 436 | 0 | 0 |
+| Admission | 2024 | UG | BHOPAL | 23786 | 10 | 2704 | 10 | 0 |
+| Admission | 2024 | UG | HARDA | 3846 | 0 | 148 | 0 | 0 |
+| Admission | 2024 | UG | HOSHANGABAD | 10262 | 0 | 761 | 0 | 0 |
+| Admission | 2024 | UG | RAISEN | 7801 | 0 | 441 | 0 | 0 |
+| Admission | 2024 | UG | RAJGARH | 9134 | 0 | 1302 | 0 | 0 |
+| Admission | 2024 | UG | SEHORE | 12169 | 0 | 579 | 0 | 0 |
+| Admission | 2024 | UG | VIDISHA | 9461 | 0 | 217 | 0 | 0 |
+
+---
+
+
 ## Year: 2022
 
 ### PG
