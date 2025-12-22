@@ -6,9 +6,6 @@
 
 | Location | Category | Year | Course | Total Students | Missing Mobile | Missing Email | Missing Both |
 |:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|
-
-| Location | Category | Year | Course | Total Students | Missing Mobile | Missing Email | Missing Both |
-|:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|
 | BHOPAL | Enrollment | 2022 | PG | 26033 | 5502 | 20236 | 5502 |
 | HARDA | Enrollment | 2022 | PG | 3038 | 2002 | 2811 | 2002 |
 | HOSHANGABAD | Enrollment | 2022 | PG | 5262 | 3209 | 4770 | 3209 |
