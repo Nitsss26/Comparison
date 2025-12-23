@@ -1,5 +1,28 @@
 # Analysis Report: Admission/Enrollment Student Data Stats
 
+## Quick Statistics
+
+### Year-wise Total Students (Enrollment + Admission Combined)
+- **2022**: 184,838 students (UG: 164,904 | PG: 19,934)
+- **2023**: 200,438 students (UG: 162,280 | PG: 38,158)
+- **2024**: 179,342 students (UG: 172,568 | PG: 6,774)
+- **2025**: 496 students (UG: 46 | PG: 450)
+
+### Overall Total (2022-2025)
+**Total Students: 565,114** across all years, locations, and categories
+
+### Location-wise Total Students (All Years Combined)
+- **BHOPAL**: 201,551 students
+- **SEHORE**: 70,164 students
+- **VIDISHA**: 68,650 students
+- **RAJGARH**: 64,873 students
+- **HOSHANGABAD**: 64,838 students
+- **RAISEN**: 55,725 students
+- **HARDA**: 36,413 students
+- **BETUL**: 39,211 students
+
+---
+
 ## Summary Table
 
 | Location | Category | Year | Course | Total Students | Missing Mobile | Missing Email | Missing Both |
