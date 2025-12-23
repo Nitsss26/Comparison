@@ -3,23 +3,23 @@
 ## Quick Statistics
 
 ### Year-wise Total Students (Enrollment + Admission Combined)
-- **2022**: 184,838 students (UG: 164,904 | PG: 19,934)
-- **2023**: 200,438 students (UG: 162,280 | PG: 38,158)
-- **2024**: 179,342 students (UG: 172,568 | PG: 6,774)
-- **2025**: 496 students (UG: 46 | PG: 450)
+- **2022**: 184,838 students (Enrollment: 92,408 (UG: 82,530 | PG: 9,878) | Admission: 92,430 (UG: 82,374 | PG: 10,056))
+- **2023**: 200,438 students (Enrollment: 100,266 (UG: 81,317 | PG: 18,949) | Admission: 100,172 (UG: 80,963 | PG: 19,209))
+- **2024**: 179,342 students (Enrollment: 89,656 (UG: 86,499 | PG: 3,157) | Admission: 89,686 (UG: 86,496 | PG: 3,190))
+- **2025**: 496 students (Enrollment: 250 (UG: 46 | PG: 204) | Admission: 246 (UG: 0 | PG: 246))
 
 ### Overall Total (2022-2025)
-**Total Students: 565,114** across all years, locations, and categories
+**Total Students: 565,114** (Enrollment: 282,580 (UG: 250,392 | PG: 32,188) | Admission: 282,534 (UG: 169,833 | PG: 112,701))
 
 ### Location-wise Total Students (All Years Combined)
-- **BHOPAL**: 201,551 students
-- **SEHORE**: 70,164 students
-- **VIDISHA**: 68,650 students
-- **RAJGARH**: 64,873 students
-- **HOSHANGABAD**: 64,838 students
-- **RAISEN**: 55,725 students
-- **HARDA**: 36,413 students
-- **BETUL**: 39,211 students
+- **BHOPAL**: 201,551 students (Enrollment: 100,726 (UG: 75,546 | PG: 25,180) | Admission: 100,825 (UG: 75,565 | PG: 25,260))
+- **SEHORE**: 70,164 students (Enrollment: 35,079 (UG: 29,563 | PG: 5,516) | Admission: 35,085 (UG: 29,563 | PG: 5,522))
+- **VIDISHA**: 68,650 students (Enrollment: 34,326 (UG: 22,337 | PG: 11,989) | Admission: 34,324 (UG: 22,336 | PG: 11,988))
+- **RAJGARH**: 64,873 students (Enrollment: 32,436 (UG: 20,136 | PG: 12,300) | Admission: 32,437 (UG: 20,136 | PG: 12,301))
+- **HOSHANGABAD**: 64,838 students (Enrollment: 32,419 (UG: 21,575 | PG: 10,844) | Admission: 32,419 (UG: 21,573 | PG: 10,846))
+- **RAISEN**: 55,725 students (Enrollment: 27,862 (UG: 16,281 | PG: 11,581) | Admission: 27,863 (UG: 16,279 | PG: 11,584))
+- **HARDA**: 36,413 students (Enrollment: 18,208 (UG: 9,050 | PG: 9,158) | Admission: 18,205 (UG: 9,050 | PG: 9,155))
+- **BETUL**: 39,211 students (Enrollment: 19,605 (UG: 10,409 | PG: 9,196) | Admission: 19,606 (UG: 10,410 | PG: 9,196))
 
 ---
 
