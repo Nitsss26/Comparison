@@ -1,0 +1,60 @@
+# Final Analysis Report: Historical Data (2009-2018)
+
+## 1. Executive Summary
+*Status: In Progress...*
+
+**Total Years Processed**: 10 (2009-2018)
+**Total Records Analyzed**: [Pending]
+**Total Students Consolidated**: [Pending]
+
+## 2. Verification Overview
+Comparison of raw data files (`NETDATA`) against control counts (`RESULT_COUNT`).
+
+### Summary Statistics
+| Year | Total Files | Verified Files | Match Rate | Status |
+|---|---|---|---|---|
+| 2009 | 1 | 0 | N/A | Stats Only |
+| 2010 | 1 | 0 | N/A | Stats Only |
+| 2011 | 1 | 0 | N/A | Stats Only |
+| 2012 | 12+ | 12+ | High | Detailed Analysis in verification report |
+| 2013-2018 | Many | Many | High | Detailed Analysis in verification report |
+
+**Key Findings**:
+- **Roll Number Fallback**: Successfully recovered thousands of student records where Enrollment Number was missing (marked as "Used Roll No" in reports).
+- **Mismatches**: Primarily due to "Withheld" or "Absent" students appearing in one source but not the other.
+- **Subject Mapping**: 446 Codes mapped significantly improved data readability.
+
+## 3. Consolidation & Migration
+Data grouped by **Enrollment Number** (Primary) and **Roll Number** (Fallback).
+
+- **Grouping Logic**: `Enrollment` -> `Roll No` -> Skip
+- **Subject Mapping**: Mapped codes using `global_subject_map.json` (446 patterns).
+
+### Migration Statistics
+- **Target Collection**: `students`
+- **Batch Tag**: `2009-2018 Consolidated`
+- **Total Documents Upserted**: [Pending]
+
+## 4. Methodology & Data Treatment
+
+### 4.1 Data Verification
+- **Process**: Recursive scan of `2009-2018` directories.
+- **Comparison**: `NETDATA` (Source) vs `RESULT_COUNT` (Control).
+- **Matching Logic**: Enrollment Number is primary key. Roll Number is fallback key.
+
+### 4.2 Data Cleaning (ACE JSONs)
+- **Objective**: Standardize 10 years of Excel data into `ACE` format.
+- **Cleaning Actions**:
+    - **Header Normalization**: Uppercase, stripped whitespace.
+    - **Garbage Removal**: Dropped columns containing only `0`, `-`, or `NaN`.
+    - **Deduplication**: Removed duplicate column names.
+- **Output**: Pure JSON files (e.g., `Netdata_2009ACE.json`).
+
+### 4.3 Subject Mapping
+- **Source**: `global_subject_map.json` (Derived from BU 2019+ analysis).
+- **Scope**: **446 Unique Subject Codes** mapped to standardized Names.
+- **Usage**: Replaces raw subject codes (e.g., `SUB1`) with readable names in the Consolidated database.
+
+## 5. Next Steps
+- Review mismatches in Verification Report.
+- Use `Consolidated_2009_2018.jsonl` for backup or external analysis.
